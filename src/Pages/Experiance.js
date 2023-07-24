@@ -1,0 +1,100 @@
+import React, {useState} from 'react'
+import { Tab, Tabs, Box } from "@mui/material";
+import "../Styles/experiance.css";
+import { Typography } from '@mui/material';
+
+function Experiance() {
+  const [currentTabIndex, setCurrentTabIndex] = useState(0);
+ 
+  const handleTabChange = (e, tabIndex) => {
+    console.log(tabIndex);
+    setCurrentTabIndex(tabIndex);
+  };
+  return (
+    <div class="experiance">
+      <h1>Experiance</h1>
+        <React.Fragment>
+        <Tabs className="Tabs"
+        value={currentTabIndex} onChange={handleTabChange} 
+        variant='fullWidth' indicatorColor='secondary'>
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>CBSS Computer Science Club</span>} />
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>First Robotics</span>} />
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>Tranzac Cricket Academy</span>} />
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>Canada's Wonderland</span>} />
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>Saputo</span>} />
+        </Tabs>
+
+        {currentTabIndex === 0 && (
+        <Box className = "CBSS" sx={{ p: 3 }}>
+          <h2>Programming Instructor @ Castlebrooke Computer Science Club</h2>
+          <p>Oct 2022 - Jun 2022</p>
+          <Typography component="div">
+            <ul>
+              <li>Conducted regular workshops and lessons on Python, HTML, and CSS to a diverse group of over 100 students, equipping them with the necessary skills and knowledge to excel in the University of Waterloo's Canadian Computing Competition</li>
+              <li>Collaborated with educators and fellow students to organize a comprehensive school-wide hackathon</li>
+              <li>Additionally, spearheaded weekly competitions within the school community, aimed at enhancing students' skills and capabilities.</li>
+              <li>The implementation of lessons and workshops resulted in improvements in computer science grades, increase ranging from 7% to 14%, as well as improving performance in the UW CCC by a remarkable 25% increase in points compared to previous years.</li>
+            </ul>
+          </Typography>
+        </Box>
+        )}
+
+        {currentTabIndex === 1 && (
+          <Box className = 'FRC' sx={{ p: 3 }}>
+            <h2>Team Lead of Problem Solving team @ First Robotics </h2>
+            <p>Dec 2020 - May 2021</p>
+            <Typography component="div">
+            <ul>
+              <li>Team Lead of the problem-solving team in schools Innovation Challenge team. </li>
+              <li>Hosted meetings with the team every week, and gave team members responsibilities and deadlines</li>
+              <li>Assisted team members with any difficulties and problems.</li>
+            </ul>
+          </Typography>
+          </Box>
+        )}
+
+        {currentTabIndex === 2 && (
+          <Box className='TCA' sx={{ p: 3 }}>
+            <h2>Assistant Coach and Player @ Tranzac Cricket Academy</h2>
+            <p>Feb 2019 - Present</p>
+            <Typography component="div">
+            <ul>
+              <li>Assisted the head coach in facilitating practice and game preparations, encompassing the arrangement of equipment and maintenance of the practice facility </li>
+              <li>Fostered robust connections with both the coach and students through engaging in substantive dialogues and displaying receptiveness towards acquiring new proficiencies.</li>
+              <li>Provided coaching expertise to a diverse group of students, ranging from ages 5 to 14, and imparting valuable insights on multiple facets of the game. </li>
+              <li>Competed at the highest level in Canada and made strides towards making the Canadian U-19 National team</li>
+            </ul>
+          </Typography>
+          </Box>
+        )}
+        {currentTabIndex === 3 && (
+          <Box className = "Wonderland" sx={{ p: 3 }}>
+            <h2>Merchandise Sales Associate @ Canada's Wonderland</h2>
+            <p>Jun 2021 - Aug 2021</p>
+            <Typography component="div">
+            <ul>
+              <li>Utilized merchandising strategies to enhance the visual appeal of newly stocked items, effectively capturing customer attention and driving sales </li>
+              <li>Assumed a leadership position during the absence of the primary supervisor, successfully managing and delegating tasks to fellow employees</li>
+            </ul>
+          </Typography>
+          </Box>
+        )}
+        {currentTabIndex === 4 && (
+          <Box className="saputo" sx={{ p: 3 }}>
+            <h2>General Picker @ Saputo Dairy Products</h2>
+            <p>Jun 2022 - Aug 2022</p>
+            <Typography component="div">
+            <ul>
+              <li>Effectively oversaw daily inventory management operations, leveraging physical strength to transfer products from incoming trucks to their designated storage areas.</li>
+              <li>Exercised meticulous attention to detail in upholding rigorous food safety procedures to prevent contamination and maintain optimal sterilization standards.</li>
+            </ul>
+          </Typography>
+          </Box>
+        )}
+        </React.Fragment>
+
+    </div>
+  )
+}
+
+export default Experiance

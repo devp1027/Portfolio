@@ -1,0 +1,59 @@
+.title {
+    color: aliceblue;
+    font-size: 20px;
+    position: static;
+}
+.CCR ul{
+    text-align: left;
+    font-size: 20px;
+    background-color: rgba(163, 66, 196, 0.15);
+    width: 60%
+}
+.CCR{
+    padding-top: 5px;
+}
+
+.remote_pic{
+    text-align: right;
+    position: static;
+    padding-right: 50px;
+}
+
+.GetAGrip h2{
+    padding-top: 4em;
+    font-size: 35px;
+}
+
+.RQA ul{
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    background-color: rgba(163, 66, 196, 0.15);
+    text-align: left;
+    width: 90%
+}
+.RQA{
+    padding-top: 5px;
+    padding-left:750px ;
+}
+.webapp ul{
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 0px;
+    font-size: 20px;
+    background-color: rgba(163, 66, 196, 0.15);
+    
+    width: 50%
+}
+.webapp_pic img{
+    border-radius: 7%;
+}
+
+.QIL_pic img{
+    border-radius: 7%;
+}
+
+.remote_pic img{
+    border-radius: 7%;
+}

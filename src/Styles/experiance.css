@@ -1,0 +1,69 @@
+.experiance h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.Mui-selected {
+    color: #7504b2 !important;
+  }
+
+.experiance h3 {
+    color: aliceblue;
+}
+.experiance h2 {
+    color: aliceblue;
+}
+
+
+.CBSS p{
+    color: white;
+ }
+.CBSS ul{
+    padding:10px 10px px 30px;
+    background-color: rgba(163, 66, 196, 0.15);
+    color: azure;
+    text-align: left;
+    font-size: 17.5px
+  }
+
+  .FRC ul{
+    padding:10px 10px 24px 30px;
+    background-color: rgba(163, 66, 196, 0.15);
+    color: azure;
+    text-align: left;
+    font-size: 17.5px
+  }
+  .FRC p{
+    color: white;
+ }
+
+  .TCA ul{
+    padding:10px 10px 1px 30px;
+    background-color: rgba(163, 66, 196, 0.15);
+    color: azure;
+    text-align: left;
+    font-size: 17.5px
+  }
+  .TCA p{
+    color: white;
+ }
+  .Wonderland ul{
+    padding:10px 10px 50px 30px;
+    background-color: rgba(163, 66, 196, 0.15);
+    color: azure;
+    text-align: left;
+    font-size: 17.5px
+  }
+  .Wonderland p{
+    color: white;
+ }
+  .saputo ul{
+    padding:10px 10px 50px 30px;
+    background-color: rgba(163, 66, 196, 0.15);
+    color: azure;
+    text-align: left;
+    font-size: 17.5px
+  }
+  .saputo p{
+    color: white;
+ }
