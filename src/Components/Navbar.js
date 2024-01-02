@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import "../Styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import {HashLink} from "react-router-hash-link"
-import resume from '../Components/Icons/Dev_Patel_Resume.pdf'
+import resume from '../Components/Icons/Patel_Dev_Resume.pdf'
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);

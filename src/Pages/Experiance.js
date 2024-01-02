@@ -12,15 +12,15 @@ function Experiance() {
   };
   return (
     <div class="experiance">
-      <h1>Experiance</h1>
+      <h1>Experience</h1>
         <React.Fragment>
         <Tabs className="Tabs"
         value={currentTabIndex} onChange={handleTabChange} 
         variant='fullWidth' indicatorColor='secondary'>
           <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>CBSS Computer Science Club</span>} />
           <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>First Robotics</span>} />
-          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>Tranzac Cricket Academy</span>} />
-          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>Canada's Wonderland</span>} />
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>McMaster Rocketry Team</span>} />
+          <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>IEEE Member</span>} />
           <Tab label={<span style={{ color: 'white', fontSize: '16px' }}>Saputo</span>} />
         </Tabs>
 
@@ -54,27 +54,26 @@ function Experiance() {
         )}
 
         {currentTabIndex === 2 && (
-          <Box className='TCA' sx={{ p: 3 }}>
-            <h2>Assistant Coach and Player @ Tranzac Cricket Academy</h2>
-            <p>Feb 2019 - Present</p>
+          <Box className='MRT' sx={{ p: 3 }}>
+            <h2>Launch Oversight and Logistics Team Member</h2>
+            <p>Sep 2023 - Present</p>
             <Typography component="div">
             <ul>
-              <li>Assisted the head coach in facilitating practice and game preparations, encompassing the arrangement of equipment and maintenance of the practice facility </li>
-              <li>Fostered robust connections with both the coach and students through engaging in substantive dialogues and displaying receptiveness towards acquiring new proficiencies.</li>
-              <li>Provided coaching expertise to a diverse group of students, ranging from ages 5 to 14, and imparting valuable insights on multiple facets of the game. </li>
-              <li>Competed at the highest level in Canada and made strides towards making the Canadian U-19 National team</li>
+              <li>Curated a risk assessment Form that analyzes the various risks involved with the launch and created safety measures to combat the risks</li>
+              <li>Prepared logistics reports on how to safely use and manage the rocket</li>
             </ul>
           </Typography>
           </Box>
         )}
         {currentTabIndex === 3 && (
-          <Box className = "Wonderland" sx={{ p: 3 }}>
-            <h2>Merchandise Sales Associate @ Canada's Wonderland</h2>
-            <p>Jun 2021 - Aug 2021</p>
+          <Box className = "IEEE" sx={{ p: 3 }}>
+            <h2>RPI & Soldering Team Member</h2>
+            <p>Sep 2023 - Present</p>
             <Typography component="div">
             <ul>
-              <li>Utilized merchandising strategies to enhance the visual appeal of newly stocked items, effectively capturing customer attention and driving sales </li>
-              <li>Assumed a leadership position during the absence of the primary supervisor, successfully managing and delegating tasks to fellow employees</li>
+              <li>Utilized various RPI modules, such as Luma, to develop small projects such as creating a mini sound board with push buttons, and manipulated LED matrices relay characters while changing colour and orientation.</li>
+              <li>Learned to develop circuit schematics and modelled a parallel LED matrix circuit on EasyEDA</li>
+              <li>Learned how to read circuit schematics and translate the given schematic to a real circuit</li>
             </ul>
           </Typography>
           </Box>

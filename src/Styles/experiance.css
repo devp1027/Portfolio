@@ -37,24 +37,24 @@
     color: white;
  }
 
-  .TCA ul{
+  .MRT ul{
     padding:10px 10px 1px 30px;
     background-color: rgba(163, 66, 196, 0.15);
     color: azure;
     text-align: left;
     font-size: 17.5px
   }
-  .TCA p{
+  .MRT p{
     color: white;
  }
-  .Wonderland ul{
+  .IEEE ul{
     padding:10px 10px 50px 30px;
     background-color: rgba(163, 66, 196, 0.15);
     color: azure;
     text-align: left;
     font-size: 17.5px
   }
-  .Wonderland p{
+  .IEEE p{
     color: white;
  }
   .saputo ul{

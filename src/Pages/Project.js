@@ -38,16 +38,17 @@ function Project() {
             </ul>
           </Typography>
         {/* ------------------------------ */}
-        <div className="MyWorkouts">
-          <h2>MyWorkouts, Workout Planner and Sorter Web App</h2>
+        <div className="RAD">
+          <h2>Room Automation Device</h2>
           <div className = "webapp_pic" style={{float : 'right', paddingRight : '0px'}} >
             <img src={webapp_pic}/>
           </div>
-          <Typography className='webapp' component="div">
+          <Typography className='RAD_TXT' component="div">
             <ul>
-              <li>Developed a web app that’s stores, and logs workouts using Flask backend to manage the app route and process the HTTP requests.</li>
-              <li>Utilized the JavaScript Local Storage to manage and store user information as well as tracking progress, the web app was hosted using Heroku.</li>
-              <li>Implemented a responsive frontend that uses HTML, CSS, and JavaScript </li>
+              <li>Created a multi-functional device that automates various tedious tasks inside of a bedroom</li>
+              <li>Utilized the IR library, Time library, and the DHT11 temperature sensor library to develop various functions of the device</li>
+              <li>The device includes a DHT11 temperature sensor to map the current temperature and humidity of the room and turns on a fan or heater, by sending IR signals to the respective devices, based on whether it is summer or winter.</li>
+              <li>Used the Time library to check what time it is and to turn on the LED lights in the room at the pre-programmed time.</li>
             </ul>
           </Typography>
         </div>
