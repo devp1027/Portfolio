@@ -3,7 +3,7 @@ import "../Styles/Projects.css";
 import { Typography } from '@mui/material';
 import remote_pic from '../Components/Icons/CCR_picture.png'
 import QIL_pic from '../Components/Icons/RQA_picture.png'
-import webapp_pic from '../Components/Icons/webapp_picture.png'
+import RAD_Pic from '../Components/Icons/RAD_Picture_resized.jpg'
 
 function Project() {
   return (
@@ -40,8 +40,8 @@ function Project() {
         {/* ------------------------------ */}
         <div className="RAD">
           <h2>Room Automation Device</h2>
-          <div className = "webapp_pic" style={{float : 'right', paddingRight : '0px'}} >
-            <img src={webapp_pic}/>
+          <div className = "RAD_Pic" style={{float : 'right', paddingRight : '0px'}} >
+            <img src={RAD_Pic}/>
           </div>
           <Typography className='RAD_TXT' component="div">
             <ul>

@@ -16,7 +16,7 @@
 .remote_pic{
     text-align: right;
     position: static;
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 .GetAGrip h2{
@@ -43,10 +43,12 @@
     padding-right: 0px;
     font-size: 20px;
     background-color: rgba(163, 66, 196, 0.15);
-    
     width: 50%
 }
-.webapp_pic img{
+.RAD_Pic img{
+    text-align: right;
+    padding-right:100px;
+    position: static;
     border-radius: 7%;
 }
 
