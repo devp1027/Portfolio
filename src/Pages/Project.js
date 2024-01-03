@@ -40,7 +40,7 @@ function Project() {
         {/* ------------------------------ */}
         <div className="RAD">
           <h2>Room Automation Device</h2>
-          <div className = "RAD_Pic" style={{float : 'right', paddingRight : '0px'}} >
+          <div className = "RAD_Pic" style={{float : 'right', paddingRight : '100px'}} >
             <img src={RAD_Pic}/>
           </div>
           <Typography className='RAD_TXT' component="div">

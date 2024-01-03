@@ -40,14 +40,13 @@
 .RAD_TXT ul{
     text-align: left;
     padding-top: 5px;
-    padding-right: 0px;
     font-size: 20px;
     background-color: rgba(163, 66, 196, 0.15);
     width: 50%
 }
-.RAD_Pic img{
+.RAD_Pic img {
     text-align: right;
-    padding-right:100px;
+    display: block; 
     position: static;
     border-radius: 7%;
 }
